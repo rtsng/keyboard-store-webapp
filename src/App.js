@@ -1,12 +1,16 @@
+import Navbar from "./components/Navbar";
 
-import './App.css';
-
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      wagwan
-    </div>
+    <header>
+      <div className="nav-area">
+        <a href="/#" className="logo">
+          Logo
+        </a>
+        <Navbar />
+      </div>
+    </header>
   );
-}
+};
 
 export default App;
